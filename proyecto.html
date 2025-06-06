@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tortillería tlaxcalli</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffef2;
+      color: #333;
+    }
+    header {
+      background-color: #d4a373;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #fefae0;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #8d5600;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .menu-item {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      background-color: #fff;
+    }
+    .menu-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .menu-item button {
+      background-color: #d4a373;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .menu-item button:hover {
+      background-color: #c47b30;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #d4a373;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tortillería tlaxcalli</h1>
+    <p>¡PURA TRADICIÓN!</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#menu">Menú</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Bienvenidos</h2>
+    <p>En <strong>tlaxcalli</strong> elaboramos tortillas frescas todos los días, con maíz 100% natural.</p>
+    <img src="https://i.imgur.com/fU74ILe.jpg" alt="Tortillas frescas" style="width:100%;max-width:600px;border-radius:12px;">
+  </section>
+
+  <section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos una tortillería con más de 20 años de experiencia llevando el mejor sabor a tu mesa. Nuestras tortillas son hechas con cariño, dedicación y tradición.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Menú</h2>
+
+    <div class="menu-item">
+      <h3>Tortilla de Maíz</h3>
+      <img src="https://i.imgur.com/5Z7PZ8h.jpg" alt="Tortilla de maíz">
+      <p>Precio: $18 por kilo</p>
+      <button onclick="alert('Agregado al pedido: Tortilla de Maíz')">Agregar al pedido</button>
+    </div>
+
+    <div class="menu-item">
+      <h3>Tortilla de Nopal</h3>
+      <img src="https://i.imgur.com/lvqYPPI.jpg" alt="Tortilla de nopal">
+      <p>Precio: $22 por kilo</p>
+      <button onclick="alert('Agregado al pedido: Tortilla de Nopal')">Agregar al pedido</button>
+    </div>
+
+    <div class="menu-item">
+      <h3>Tortilla Azul</h3>
+      <img src="https://i.imgur.com/WnU6FZc.jpg" alt="Tortilla azul">
+      <p>Precio: $25 por kilo</p>
+      <button onclick="alert('Agregado al pedido: Tortilla Azul')">Agregar al pedido</button>
+    </div>
+  </section>
+
+  <section id="galeria" class="gallery">
+    <h2>Galería</h2>
+    <img src="https://i.imgur.com/V05tK8e.jpg" alt="Máquina de tortillas">
+    <img src="https://i.imgur.com/gLJyzcY.jpg" alt="Tortillas recién hechas">
+    <img src="https://i.imgur.com/bU8aL90.jpg" alt="Clientes felices">
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>Dirección:</strong> Calle del Maíz #123, Pueblo Tradicional, México</p>
+    <p><strong>Teléfono:</strong> 55 1234 5678</p>
+    <p><strong>Horario:</strong> Lunes a Sábado de 6:00 a.m. a 3:00 p.m.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tortillería tlaxcalli. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
