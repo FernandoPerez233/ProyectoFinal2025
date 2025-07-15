@@ -281,11 +281,36 @@
 
        }
 
-        .Acercade{
-            text-align: center;
-            background-color:  rgb(238, 220, 130);
-            border-radius: linear-gradient(90deg, #228B22, #F4C430, #4CAF50);;
+ .Acercade {
+    text-align: center;
+    background: linear-gradient(135deg, #F4C430, #FFD700);
+    border: 3px solid #228B22;
+    border-radius: 15px;
+    padding: 40px 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+       
+        .tituloAcerca {
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            color: #1a1a1a;
+            margin-bottom: 25px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            letter-spacing: -0.02em;
         }
+
+        .descripcionAcerca {
+            color: #2c2c2c;
+            font-size: clamp(1rem, 2.5vw, 1.2rem);
+            line-height: 1.7;
+            font-weight: 400;
+            margin-top: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         /* css para las cards de opinion de clientes */
         
         .section-title {

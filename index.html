@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final</title>
     <link rel="stylesheet" href="Font-Awesome-6.x/css/all.min.css">
-    <link rel="stylesheet" href="proyectocss.css">
+    <link rel="stylesheet" href="css/proyectocss.css">
 </head>
 
 
 <body>
     
     <header>
-        <a href="index.html"><img src="img" class="logo" alt="Logo Tortillería Erika">
+        <a href="index.html"><img src="img/logomaiz.jpeg" class="logo" alt="Logo Tortillería Erika">
 </a>
                    <nav class="nav-menu">
             <ul>
@@ -24,7 +24,7 @@
             </ul>
         </nav>
     </header>
-
+    <br> <br>
     <div class="content fondo">
         
         <div class="Acerca">   
@@ -94,10 +94,10 @@
 
     <section class="Nosotros">
         <div class="Acercade">
-            <h1>
+            <h1 class="titulo">
                 Prueba la auténtica tortilla de Monterrey, un sabor que es muy superior 
             </h1>
-            <p>
+            <p class="descripciones">
                 En Tortillería Erika nos dedicamos a la producción, distribución, exportación y venta al mayoreo o menudeo de uno de los productos alimenticios más importantes para las 
                 familias mexicanas: la tortilla de maíz y harina y sus variantes: tostadas, totopos; también ofrecemos salsas y frijoles para el acompañamiento de estos alimentos.
                 Nos hemos mantenido dentro de la preferencia de la gente gracias a que ofrecemos la  mejor calidad e inocuidad en las tortillas así como una gran variedad de derivados de las 
@@ -168,27 +168,8 @@
         </div>
     </div>
 
-    <script>
-        document.getElementById('testimonialForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const name = document.getElementById('clientName').value;
-            const role = document.getElementById('clientRole').value;
-            const testimonialText = document.getElementById('testimonial').value;
-            const rating = document.getElementById('rating').value;
-            
-            if (name && role && testimonialText && rating) {
-                alert('¡Gracias por tu testimonio! Lo revisaremos y publicaremos pronto.');
-                this.reset();
-            }
-        });
-    </script>      
-
-
-
-
-
-
+    <script src="js/script.js"> </script>      
+    
        <section class="contacto" id="contacto">
         <div>
         <h2>Contacto</h2>
