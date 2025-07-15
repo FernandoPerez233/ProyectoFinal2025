@@ -12,19 +12,39 @@
 <body>
     
     <header>
-        <a href="index.html"><img src="img/logomaiz.jpeg" class="logo" alt="Logo Tortillería Erika">
-</a>
-                   <nav class="nav-menu">
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="">Menú</a></li>
-                <li><a href="">Galería</a></li>
-                <li><a href="">Contacto</a></li>
-            </ul>
-        </nav>
+        
+        <div class="menu-principal">
+            <div class="logo" id="logo">
+                <a href="index.html"><img src="img/logomaiz.jpeg" alt="Logo Tortillería Erika">
+                </a>  
+            </div>
+                  
+         <div class="nav-menu" id="menubar">
+            <i class="fas fa-angle-right" id="btnMenuClose"></i>
+            
+            <nav class="enlaces" id="enlaces">
+                <ul>
+                    <li><a href="#index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="#Acerca">Menú</a></li>
+                    <li><a href="#caracteristicas-section">Galería</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="sociales">
+                <a href="#"> <span class="fab fa-facebook"></span> </a>
+                <a href="#"> <span class="fab fa-instagram"></span> </a>
+                <a href="#"> <span class="fa-brands fa-whatsapp"></span> </a>
+                <a href="#"> <span class="fab fa-youtube"></span> </a>
+            </div>
+        </div>
+
+        <i class="fas fa-bars" id="btnMenuOpen"></i>
+    </div>
     </header>
     <br> <br>
+
     <div class="content fondo">
         
         <div class="Acerca">   
@@ -98,13 +118,13 @@
                 Prueba la auténtica tortilla de Monterrey, un sabor que es muy superior 
             </h1>
             <p class="descripcionAcerca">
-                En Tortillería Erika nos dedicamos a la producción, distribución, exportación y venta al mayoreo o menudeo de uno de los productos alimenticios más importantes para las 
+                En <b>Tortillería Erika</b> nos dedicamos a la producción, distribución, exportación y venta al mayoreo o menudeo de uno de los productos alimenticios más importantes para las 
                 familias mexicanas: la tortilla de maíz y harina y sus variantes: tostadas, totopos; también ofrecemos salsas y frijoles para el acompañamiento de estos alimentos.
                 Nos hemos mantenido dentro de la preferencia de la gente gracias a que ofrecemos la  mejor calidad e inocuidad en las tortillas así como una gran variedad de derivados de las 
                 mismas.
             </p>
             <p class="descripcionAcerca">
-                Nuestros valores son: el compromiso, respeto, esfuerzo, dedicación, compañerismo y la lealtad.
+                Nuestros valores son: <strong>el compromiso, respeto, esfuerzo, dedicación, compañerismo y la lealtad.</strong>
                 Nuestra visión siempre es llevar la tortilla de Monterrey a más hogares y ser una empresa reconocida nacionalmente por proporcionar productos de mejor calidad, 
                 posicionándonos como la mejor procesadora de productos de harina y maíz.
             </p>
@@ -168,9 +188,7 @@
                 <button type="submit" class="submit-btn">Enviar Testimonio</button>
             </form>
         </div>
-    </div>
-
-    <script src="js/script.js"> </script>      
+    </div>      
 
        <section class="contacto" id="contacto">
         <div>
@@ -185,5 +203,7 @@
   <footer>
     <p>&copy; 2025 Tortillería Erika. Todos los derechos reservados.</p>
   </footer>
+
+   <script src="js/script.js"> </script>
 </body>
 </html>
