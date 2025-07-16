@@ -1,10 +1,11 @@
   .hero-nosotros {
-            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            background:  rgb(238, 220, 130);;
             color: white;
             padding: 80px 0;
             text-align: center;
             position: relative;
             overflow: hidden;
+            border-radius: auto;
         }
         
         .hero-nosotros::before {
@@ -14,7 +15,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('img/tortillas-pattern.png') repeat;
+            background: url('img/tortillasmaiz.png') repeat;
             opacity: 0.1;
         }
         
@@ -68,7 +69,7 @@
             transform: translateX(-50%);
             width: 80px;
             height: 3px;
-            background: #ff6b35;
+            background: linear-gradient(135deg, #F4C430, #FFD700);
         }
         
         .historia-grid {
