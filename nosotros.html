@@ -1,45 +1,384 @@
-<!-- SECCIÓN NOSOTROS -->
-<section id="nosotros" style="padding: 60px 20px; background-color: #f0ffe1; font-family: 'Segoe UI', sans-serif;">
-  <div style="max-width: 1000px; margin: auto; display: flex; flex-wrap: wrap; align-items: center; animation: fadeIn 1.5s ease-in-out;">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - Tortillería Erika</title>
+    <link rel="stylesheet" href="Font-Awesome-6.x/css/all.min.css">
+    <link rel="stylesheet" href="css/nosotros.css">
+    <link rel="stylesheet" href="css/proyectocss.css">
     
-    <!-- Imagen -->
-    <div style="flex: 1 1 300px; padding: 10px;">
-      <img src="..." alt="Equipo de la tortillería"
-           style="width: 100%; border-radius: 12px; box-shadow: 2px 4px 12px rgba(0,0,0,0.2); object-fit: cover;">
-    </div>
-
-    <!-- Texto -->
-    <div style="flex: 2 1 400px; padding: 20px;">
-      <h2 style="color: #1b7d22; font-size: 2.5rem; margin-bottom: 20px;">
-        Nosotros
-      </h2>
+    <style>
       
-      <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 16px;">
-        En <strong>Tortillería Erika</strong> somos una familia que por más de 20 años ha compartido el sabor de la tradición mexicana. Elaboramos nuestras tortillas con <strong>maíz 100% nacional</strong> y con las técnicas ancestrales del nixtamal.
-      </p>
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu-principal">
+            <div class="logo" id="logo">
+                <a href="index.html"><img src="img/logomaiz.jpeg" alt="Logo Tortillería Erika"></a>
+            </div>
+            
+            <div class="nav-menu" id="menubar">
+                <i class="fas fa-angle-right" id="btnMenuClose"></i>
+                
+                <nav class="enlaces" id="enlaces">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html" class="active">Nosotros</a></li>
+                        <li><a href="menu.html">Menú</a></li>
+                        <li><a href="galeria.html">Galería</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="sociales">
+                    <a href="#"><span class="fab fa-facebook"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fa-brands fa-whatsapp"></span></a>
+                    <a href="#"><span class="fab fa-youtube"></span></a>
+                </div>
+            </div>
+            
+            <i class="fas fa-bars" id="btnMenuOpen"></i>
+        </div>
+    </header>
 
-      <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 16px;">
-        Nos impulsa el amor por nuestras raíces y el deseo de ofrecer un producto auténtico, accesible y de calidad. Apoyamos la economía local, generamos empleo y brindamos atención cercana a cada cliente.
-      </p>
 
-      <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 30px;">
-        Desde 2005 hasta hoy, cada tortilla que elaboramos es una muestra de trabajo, tradición y orgullo por nuestra cultura.
-      </p>
+    <!-- Hero Section -->
+    <section class="hero-nosotros">
+        <div class="hero-content">
+            <h1>Nuestra Historia</h1>
+            <p>Más de 25 años llevando la auténtica tortilla regiomontana a tu mesa</p>
+            <div class="tradition-badge">
+                <i class="fa-solid fa-star"></i> TRADICIÓN FAMILIAR <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+    </section>
 
-     
-      </a>
-    </div>
-  </div>
-</section>
+    <!-- Historia Section -->
+    <section class="nosotros-section">
+        <div class="section-container">
+            <h2 class="section-title">Nuestra Historia</h2>
+            <div class="historia-grid">
+                <div class="historia-texto">
+                    <p>Tortillería Erika nació en 1998 como un sueño familiar en el corazón de Guadalupe, Nuevo León. Doña Maria, con su pasión por la cocina tradicional mexicana, decidió abrir una pequeña tortillería para ofrecer a su comunidad tortillas frescas y auténticas.</p>
+                    
+                    <p>Lo que comenzó como un negocio familiar modesto, se ha convertido en una empresa reconocida por la calidad excepcional de sus productos. Hemos mantenido las recetas tradicionales mientras incorporamos tecnología moderna para garantizar la mejor calidad e inocuidad alimentaria.</p>
+                    
+                    <p>A lo largo de los años, hemos crecido no solo en tamaño, sino también en el corazón de nuestros clientes, convirtiéndonos en parte integral de las familias regiomontanas.</p>
+                </div>
+                <div class="historia-imagen">
+                    <img src="img/logotortillas.jpg" alt="Historia de Tortillería Erika" style="width: auto; height: 350px;">
+                </div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">1998</div>
+                        <h3>Los Inicios</h3>
+                        <p>Doña Erika abre la primera tortillería en Polanco, Guadalupe, con una máquina tradicional y muchos sueños.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2005</div>
+                        <h3>Primera Expansión</h3>
+                        <p>Se incorporan nuevos productos como tostadas y totopos, ampliando la oferta para nuestros clientes.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2012</div>
+                        <h3>Modernización</h3>
+                        <p>Implementación de nueva tecnología y procesos para mejorar la calidad y capacidad de producción.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2020</div>
+                        <h3>Certificaciones</h3>
+                        <p>Obtención de certificaciones sanitarias y de calidad, consolidando nuestra posición en el mercado.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2025</div>
+                        <h3>Visión Futura</h3>
+                        <p>Expansión a nuevos mercados manteniendo siempre la calidad y tradición que nos caracteriza.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- ANIMACIÓN CSS -->
-<style>
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
+    <!-- Misión y Valores -->
+    <section class="nosotros-section">
+        <div class="section-container">
+            <h2 class="section-title">Misión, Visión y Valores</h2>
+            
+            <div class="historia-grid">
+                <div class="historia-texto">
+                    <h3 style="color: #ff6b35; font-size: 1.5rem; margin-bottom: 20px;">Nuestra Misión</h3>
+                    <p>Producir y distribuir tortillas y productos derivados del maíz y harina de la más alta calidad, preservando la tradición culinaria mexicana y satisfaciendo las necesidades alimentarias de las familias regiomontanas.</p>
+                </div>
+                <div class="historia-texto">
+                    <h3 style="color: #ff6b35; font-size: 1.5rem; margin-bottom: 20px;">Nuestra Visión</h3>
+                    <p>Ser la empresa líder en la producción y distribución de tortillas en el noreste de México, reconocida por la calidad excepcional de nuestros productos y nuestro compromiso con la tradición y la innovación.</p>
+                </div>
+            </div>
+            
+            <div class="valores-grid">
+                <div class="valor-card">
+                    <div class="valor-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Compromiso</h3>
+                    <p>Dedicación absoluta con nuestros clientes, empleados y la comunidad en general.</p>
+                </div>
+                
+                <div class="valor-card">
+                    <div class="valor-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Respeto</h3>
+                    <p>Valoramos y respetamos a todas las personas, sus opiniones y su diversidad cultural.</p>
+                </div>
+                
+                <div class="valor-card">
+                    <div class="valor-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Esfuerzo</h3>
+                    <p>Trabajamos con dedicación y perseverancia para alcanzar la excelencia en todo lo que hacemos.</p>
+                </div>
+                
+                <div class="valor-card">
+                    <div class="valor-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Dedicación</h3>
+                    <p>Pasión y entrega en cada producto que elaboramos, manteniendo la calidad tradicional.</p>
+                </div>
+                
+                <div class="valor-card">
+                    <div class="valor-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Compañerismo</h3>
+                    <p>Fomentamos un ambiente de trabajo colaborativo y de apoyo mutuo entre nuestro equipo.</p>
+                </div>
+                
+                <div class="valor-card">
+                    <div class="valor-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Lealtad</h3>
+                    <p>Fidelidad hacia nuestros principios, clientes y la tradición que nos ha formado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  a:hover {
-    background-color: #c47b30 !important;
-  }
-</style>
+    <!-- Equipo -->
+    <section class="nosotros-section">
+        <div class="section-container">
+            <h2 class="section-title">Nuestro Equipo</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 40px;">Conoce a las personas que hacen posible la magia de nuestras tortillas</p>
+            
+            <div class="equipo-grid">
+                <div class="equipo-card">
+                    <div class="equipo-foto">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="equipo-info">
+                        <h3>Erika González</h3>
+                        <p>Fundadora y Directora General</p>
+                        <small>25 años de experiencia en la industria alimentaria</small>
+                    </div>
+                </div>
+                
+                <div class="equipo-card">
+                    <div class="equipo-foto">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <div class="equipo-info">
+                        <h3>Carlos Martínez</h3>
+                        <p>Jefe de Producción</p>
+                        <small>Especialista en procesos alimentarios y control de calidad</small>
+                    </div>
+                </div>
+                
+                <div class="equipo-card">
+                    <div class="equipo-foto">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <div class="equipo-info">
+                        <h3>Ana Rodríguez</h3>
+                        <p>Gerente de Calidad</p>
+                        <small>Certificada en sistemas de gestión alimentaria</small>
+                    </div>
+                </div>
+                
+                <div class="equipo-card">
+                    <div class="equipo-foto">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="equipo-info">
+                        <h3>Miguel Hernández</h3>
+                        <p>Coordinador de Distribución</p>
+                        <small>Garantiza la entrega fresca y oportuna de nuestros productos</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso de Elaboración -->
+    <section class="nosotros-section">
+        <div class="section-container">
+            <h2 class="section-title">Nuestro Proceso de Elaboración</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 40px;">Un proceso artesanal con tecnología moderna para garantizar la mejor calidad</p>
+            
+            <div class="proceso-steps">
+                <div class="proceso-step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Selección del Maíz</h3>
+                    <p class="step-description">Elegimos cuidadosamente maíz 100% natural, libre de transgénicos y de la mejor calidad.</p>
+                </div>
+                
+                <div class="proceso-step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Nixtamalización</h3>
+                    <p class="step-description">Proceso tradicional de cocción del maíz con cal para mejorar su valor nutricional.</p>
+                </div>
+                
+                <div class="proceso-step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Molienda</h3>
+                    <p class="step-description">Molemos el maíz nixtamalizado para obtener masa fresca y de textura perfecta.</p>
+                </div>
+                
+                <div class="proceso-step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Formado</h3>
+                    <p class="step-description">Formamos las tortillas con maquinaria especializada manteniendo el grosor ideal.</p>
+                </div>
+                
+                <div class="proceso-step">
+                    <div class="step-number">5</div>
+                    <h3 class="step-title">Cocción</h3>
+                    <p class="step-description">Cocemos las tortillas a la temperatura perfecta para lograr la textura y sabor ideales.</p>
+                </div>
+                
+                <div class="proceso-step">
+                    <div class="step-number">6</div>
+                    <h3 class="step-title">Empaque</h3>
+                    <p class="step-description">Empacamos inmediatamente para mantener la frescura y temperatura óptima.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificaciones -->
+    <section class="nosotros-section">
+        <div class="section-container">
+            <h2 class="section-title">Certificaciones y Permisos</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 40px;">Cumplimos con todos los estándares de calidad y seguridad alimentaria</p>
+            
+            <div class="certificaciones-grid">
+                <div class="certificacion-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>COFEPRIS</h3>
+                    <p>Registro sanitario vigente que garantiza la seguridad de nuestros productos</p>
+                </div>
+                
+                <div class="certificacion-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>HACCP</h3>
+                    <p>Sistema de análisis de peligros y puntos críticos de control implementado</p>
+                </div>
+                
+                <div class="certificacion-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Orgánico</h3>
+                    <p>Certificación de productos libres de químicos y conservantes artificiales</p>
+                </div>
+                
+                <div class="certificacion-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>ISO 9001</h3>
+                    <p>Sistema de gestión de calidad certificado para la mejora continua</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compromiso con la Comunidad -->
+    <section class="nosotros-section">
+        <div class="section-container">
+            <h2 class="section-title">Compromiso con la Comunidad</h2>
+            
+            <div class="compromiso-content">
+                <div class="compromiso-grid">
+                    <div class="compromiso-item">
+                        <div class="compromiso-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Empleo Local</h3>
+                        <p>Generamos más de 25 empleos directos en la comunidad de Guadalupe y municipios aledaños</p>
+                    </div>
+                    
+                    <div class="compromiso-item">
+                        <div class="compromiso-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Capacitación</h3>
+                        <p>Ofrecemos programas de capacitación constante para el desarrollo profesional de nuestro equipo</p>
+                    </div>
+                    
+                    <div class="compromiso-item">
+                        <div class="compromiso-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Apoyo Social</h3>
+                        <p>Participamos en programas de apoyo comunitario y donaciones a familias necesitadas</p>
+                    </div>
+                    
+                    <div class="compromiso-item">
+                        <div class="compromiso-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <h3>Sostenibilidad</h3>
+                        <p>Implementamos prácticas sustentables para reducir nuestro impacto ambiental</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tortillería Erika. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/nosotros.js"></script>
+</body>
+</html>
