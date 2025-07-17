@@ -30,8 +30,16 @@ enlaces.addEventListener('click',function()
             const rating = document.getElementById('rating').value;
             
             if (name && role && testimonialText && rating) {
-                alert('¡Gracias por tu testimonio! Lo revisaremos y publicaremos pronto.');
-                this.reset();
+               alert('¡Gracias por tu testimonio! Lo revisaremos y publicaremos pronto.');
+                // Aquí podrías agregar código para enviar el testimonio a un servidor o guardarlo localmente
+                console.log({
+                    name: name,
+                    role: role,
+                    testimonialText: testimonialText,
+                    rating: rating
+                }); 
+                   this.reset();
+                   this.focus.testimonialText.focus();
             }
         });
 

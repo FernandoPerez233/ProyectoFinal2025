@@ -53,6 +53,7 @@
             border-bottom: none;
         }
         
+        /* Mision, vision y valores */
         .section-title {
             font-size: 2.5rem;
             color: #333;
@@ -72,6 +73,8 @@
             background: linear-gradient(135deg, #F4C430, #FFD700);
         }
         
+        /* Historia comienzo */
+
         .historia-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -97,6 +100,7 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
         
+        /* Linea del tiempo */
         .timeline {
             position: relative;
             padding: 40px 0;
@@ -156,6 +160,7 @@
             margin-bottom: 10px;
         }
         
+        /* Seccion de valores */
         .valores-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -178,7 +183,7 @@
         
         .valor-icon {
             font-size: 3rem;
-            color: #ff6b35;
+            color: #4CAF50;
             margin-bottom: 20px;
         }
         
@@ -188,6 +193,8 @@
             font-size: 1.3rem;
         }
         
+        /* equipo de trabajo  */
+
         .equipo-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -210,7 +217,7 @@
         .equipo-foto {
             width: 100%;
             height: 200px;
-            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            background: rgb(238, 220, 130);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -248,7 +255,7 @@
         .step-number {
             width: 60px;
             height: 60px;
-            background: #ff6b35;
+            background: #4CAF50;
             color: white;
             border-radius: 50%;
             display: flex;

@@ -183,7 +183,7 @@
     }
 
     .fondo > * {
-    position: relative;
+    position: relative; 
     z-index: 2;
     }
 
@@ -414,6 +414,17 @@
             font-size: 1.1em;
         }
 
+     /* Estilo base para todas las cards */
+        .testimonios-titutlo{
+            color: black;
+            text-shadow: linear-gradient(135deg, rgba(34, 139, 34, 0.05), rgba(244, 196, 48, 0.05)) 2px 2px 4px;
+            font-weight: 700;
+            font-size: 2.5rem;
+            padding: 40px;
+            margin: 10px 0px;
+
+        }
+
         .testimonials-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -421,8 +432,6 @@
             margin-bottom: 40px;
         }
 
-
-        /* Estilo base para todas las cards */
         .testimonial-card {
             border-radius: 15px;
             padding: 25px;
@@ -459,6 +468,7 @@
             margin-bottom: 15px;
             line-height: 1;
         }
+
 /* Inicio css de Testimonios (formulario) */
         .testimonial-text {
             font-size: 1.1em;
