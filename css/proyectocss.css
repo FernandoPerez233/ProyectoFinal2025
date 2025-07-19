@@ -395,6 +395,18 @@
             margin-right: auto;
         }
 
+        .video-container {
+        width: 100%;
+        max-width: 350px; /* Tamaño máximo */
+        margin: 0 auto; /* Centra el video */
+         }
+
+        .video-container video {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            aspect-ratio: 1/1; /* Mantiene proporción cuadrada */
+        }
 
         /* Estilo seccion Nuestro menú */
 
@@ -837,7 +849,7 @@
             position: relative;
             display: flex;
             align-items: center;
-           background: linear-gradient(135deg, #D4A574 0%, #8B4513 100%);
+            background: linear-gradient(135deg, #D4A574 0%, #8B4513 100%);
         }
 
         .slide img {
