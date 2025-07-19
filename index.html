@@ -43,6 +43,10 @@
         <i class="fas fa-bars" id="btnMenuOpen"></i>
     </div>
     </header>
+
+    <button class="scroll-to-top" id="scrollToTopBtn" title="Volver al inicio">
+        <i class="fas fa-arrow-up"></i>
+    </button>
     <br> <br>
 
     <div class="content fondo">
@@ -127,71 +131,181 @@
                 Nuestros valores son: <strong>el compromiso, respeto, esfuerzo, dedicación, compañerismo y la lealtad.</strong>
                 Nuestra visión siempre es llevar la tortilla de Monterrey a más hogares y ser una empresa reconocida nacionalmente por proporcionar productos de mejor calidad, 
                 posicionándonos como la mejor procesadora de productos de harina y maíz.
-            </p>
+            </p> <br>
+            <p class="descripcionAcerca"> Este es uno de nuestros procesos para producir nuestras ricas y deliciosas tortillas!</p>
+            <video src="img/tortilleria.mp4" style="width: 350px; height: 350px; object-fit: cover;" muted autoplay></video>
         </div>
     </section>
-
-    <br> <br> <br> <br>
+<br>
+<br>
     
-    <section class="testimonals">
-        <h2 class="testimonios-titutlo">Nuestros clientes</h2>
-            <div class="testimonial-card card-style-3">
-                <div class="quote-icon">"</div>
-                <div class="testimonial-text">
-                    Muy satisfecho con el servicio recibido. La comunicación fue clara en todo momento y los resultados hablan por sí solos. Volveré a trabajar con ellos.
-                </div>
-                <div class="client-info">
-                    <div class="client-avatar">LP</div>
-                    <div class="client-details">
-                        <h4>Laura Pérez</h4>
-                        <div class="stars"> 
-                            <span class="star">★</span>
-                            <span class="star">★</span>
-                            <span class="star">★</span>
-                            <span class="star">★</span>
-                            <span class="star">★</span>
+   <section class="container">
+        <div class="menu-section">
+            <div class="slider-wrapper">
+                <div class="slider" id="slider">
+                    <!-- Slide 1 -->
+                    <div class="slide">
+                        <img src="img/kiloenvueltoMaiz.jfif" alt="Kilo Envuelto Maíz" id="slide-1">
+                        <div class="slide-content">
+                            <h2 class="product-title">Kilo Envuelto Maíz</h2>
+                            <p class="product-description">Tortillas de maíz tradicionales, envueltas para mantener su frescura. Hechas con maíz 100% natural.</p>
+                            <div class="product-price">$28.00</div>
+                            <ul class="product-features">
+                                <li>Maíz 100% natural</li>
+                                <li>Proceso artesanal</li>
+                                <li>Mantiene frescura</li>
+                                <li>Sin conservadores</li>
+                            </ul>
+                            <button class="btn-comprar">Agregar al Carrito</button>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <img src="img/mediokilomaiz.jfif" alt="Medio Kilo Maíz" id="slide-2">
+                        <div class="slide-content">
+                            <h2 class="product-title">Medio Kilo Maíz</h2>
+                            <p class="product-description">Porción perfecta para familias pequeñas. Tortillas de maíz frescas con sabor tradicional.</p>
+                            <div class="product-price">$14.00</div>
+                            <ul class="product-features">
+                                <li>Ideal para 2-3 personas</li>
+                                <li>Recién elaboradas</li>
+                                <li>Textura suave</li>
+                                <li>Sabor auténtico</li>
+                            </ul>
+                            <button class="btn-comprar">Agregar al Carrito</button>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <img src="img/kilotortillamaiz.jfif" alt="Kilo Tortilla Maíz" id="slide-3">
+                        <div class="slide-content">
+                            <h2 class="product-title">Kilo Tortilla Maíz</h2>
+                            <p class="product-description">Tortillas premium perfectas para toda la familia. Elaboradas con técnicas tradicionales mexicanas.</p>
+                            <div class="product-price">$28.00</div>
+                            <ul class="product-features">
+                                <li>Para toda la familia</li>
+                                <li>Técnica tradicional</li>
+                                <li>Ideal para tacos</li>
+                                <li>Empaque ecológico</li>
+                            </ul>
+                            <button class="btn-comprar">Agregar al Carrito</button>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="slide">
+                        <img src="img/paquetesharina.jfif" alt="Paquetes Harina" id="slide-4">
+                        <div class="slide-content">
+                            <h2 class="product-title">Paquetes Harina</h2>
+                            <p class="product-description">Tortillas de harina suaves y esponjosas. Perfectas para burritos y fajitas. Calidad premium.</p>
+                            <div class="product-price">$30.00</div>
+                            <ul class="product-features">
+                                <li>Textura esponjosa</li>
+                                <li>Ideal para burritos</li>
+                                <li>Mayor duración</li>
+                                <li>En paquetes</li>
+                            </ul>
+                            <button class="btn-comprar">Agregar al Carrito</button>
                         </div>
                     </div>
                 </div>
+
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2" ></a>
+                    <a href="#slide-3" ></a>
+                    <a href="#slide-4" ></a>
+                </div>
+
+                <button class="nav-arrows prev" onclick="changeSlide(-1)">‹</button>
+                <button class="nav-arrows next" onclick="changeSlide(1)">›</button>
             </div>
-            <div class="testimonial-card card-style-3">
-                <div class="quote-icon">"</div>
-                <div class="testimonial-text">
-                   Estoy muy satisfecho con la calidad de las tortillas. Se nota que están hechas con ingredientes frescos y naturales. ¡Definitivamente volveré a comprar!
-                </div>
-                <div class="client-info">
-                    <div class="client-avatar">LP</div>
-                    <div class="client-details">
-                        <h4>Marcela Gaytan</h4>
-                        <div class="stars"> 
-                            <span class="star">★</span>
-                            <span class="star">★</span>
-                            <span class="star">★</span>
-                            <span class="star">★</span>
-                            <span class="star">★</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-card card-style-3">
-                <div class="quote-icon">"</div>
-                <div class="testimonial-text">
-                   Sin duda el servicio al cliente es excepcional. Me ayudaron a elegir el producto perfecto para mi evento y todos quedaron encantados con las tortillas.
-                </div>
-                <div class="client-info">
-                    <div class="client-avatar">LP</div>
-                    <div class="client-details">
-                        <h4>Fernando Pérez</h4>
-                        <div class="stars"> 
-                            <span class="star">★</span>
-                            <span class="star">★</span>
-                            <span class="star">★</span>
-                            <span class="star">★</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
     </section>
+ 
+    <section class="testimonals">
+    <h2 class="testimonios-titutlo">Nuestros clientes</h2>
+    <div class="testimonials-grid">
+        <div class="testimonial-card card-style-3">
+            <div class="quote-icon">"</div>
+            <div class="testimonial-text">
+                Muy satisfecho con el servicio recibido. La comunicación fue clara en todo momento y los resultados hablan por sí solos. Volveré a trabajar con ellos.
+            </div>
+            <div class="client-info">
+                <div class="client-avatar">LP</div>
+                <div class="client-details">
+                    <h4>Laura Pérez</h4>
+                    <div class="stars"> 
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="testimonial-card card-style-3">
+            <div class="quote-icon">"</div>
+            <div class="testimonial-text">
+               Estoy muy satisfecho con la calidad de las tortillas. Se nota que están hechas con ingredientes frescos y naturales. ¡Definitivamente volveré a comprar!
+            </div>
+            <div class="client-info">
+                <div class="client-avatar">LP</div>
+                <div class="client-details">
+                    <h4>Marcela Gaytan</h4>
+                    <div class="stars"> 
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="testimonial-card card-style-3">
+            <div class="quote-icon">"</div>
+            <div class="testimonial-text">
+               Sin duda el servicio al cliente es excepcional. Me ayudaron a elegir el producto perfecto para mi evento y todos quedaron encantados con las tortillas.
+            </div>
+            <div class="client-info">
+                <div class="client-avatar">LP</div>
+                <div class="client-details">
+                    <h4>Fernando Pérez</h4>
+                    <div class="stars"> 
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card card-style-3">
+            <div class="quote-icon">"</div>
+            <div class="testimonial-text">
+               Llevamos meses trabajando con ellos para nuestro restaurante y siempre cumplen con la calidad y los tiempos de entrega. Nuestros clientes siempre elogian las tortillas.
+            </div>
+            <div class="client-info">
+                <div class="client-avatar">LP</div>
+                <div class="client-details">
+                    <h4> Ricardo Morales </h4>
+                    <div class="stars"> 
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</section>
     
 
       <div class="add-testimonial">
